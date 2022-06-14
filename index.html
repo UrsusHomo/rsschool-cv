@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="highlight/styles/qtcreator-light.min.css" />
+    <script src="highlight/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <aside class="menu">
+      <div class="menu__img"></div>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="#personal" class="nav-item">Information</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-item">experience</a>
+          </li>
+          </ul>
+      </nav>
+    </aside>
+    <main class="main-wrapper">
+      <div class="intro">
+        <div class="gray" id="gray-1">
+          <header class="header">
+            <nav class="nav">
+              <ul>
+                <li class="under">
+                  <a href="#personal" class="nav-item">Information</a>
+                </li>
+                <li class="under">
+                  <a href="#experience" class="nav-item">experience</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <img src="Eugen.png" alt="personal photo" id="photo" />
+        </div>
+        <h1 id="great-text">
+          Eugen Schetinin
+        </h1>
+      </div>
+
+      <h2 class="heading" id="personal">Information about me</h2>
+
+      <section class="section">
+        <h3 class="title">contacts</h3>
+        <ul id="contacts" class="main-text">
+          <li id="contact-1">telefon1952@mail.ru</li>
+          <li id="contact-2">+79111346129</li>
+          <li id="contact-3">UrsusHomo#1432</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">Who am I</h3>
+          <div class="purple" id="first-p"></div>
+        </div>
+        <span id="about-me" class="main-text"
+          >I want to learn Front-End Development in RSSchool</span
+        >
+      </section>
+
+      <h2 class="heading" id="experience">My experience</h2>
+
+      <section class="section">
+        <h3 class="title">skills</h3>
+        <ul id="skills" class="main-text">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>JavaScript (Basic)</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">Code Example</h3>
+          <div class="purple" id="second-p"></div>
+        </div>
+        <pre class="main-text" id="code">
+          <code class="language-java">
+          System.out.print(Hello World);
+        </code>
+        </pre>
+      </section>
+
+      <section class="section">
+        <h3 class="title">Education</h3>
+        <ul id="edu" class="main-text">
+          <li>The Bonch-Bruevich Saint Petersburg State University of Telecommunications</li>
+          <li>CS50 video course on YouTube channel</li>
+          <li>CSS, HTML, Head First courses</li>
+        </ul>
+      </section>
+
+      <section class="section centered">
+        <div class="title-wrapper">
+          <h3 class="title">English</h3>
+          <div class="purple" id="third-p"></div>
+        </div>
+        <span class="main-text" id="english"
+          >English level - A2</span
+        >
+      </section>   
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="https://github.com/UrsusHomo" class="main-text" id="github"
+          >GitHub</a
+        >
+
+        <time class="main-text" id="time">2022</time>
+        
+        <a href="https://rs.school/js-stage0/"
+          ><img src="icons/rs.svg" alt="rs school logo" id="rs-logo"
+        /></a>
+      </div>
+    </footer>
+    <script src="selfcheck.js"></script>
+  </body>
